@@ -1,11 +1,6 @@
 import itertools
 import networkx as nx
 
-def suma(a, b):
-    return a + b
-
-def hello():
-    return "Hello, world!"
 
 def is_proper_coloring(graph, coloring):
   for edge in graph.edges():
